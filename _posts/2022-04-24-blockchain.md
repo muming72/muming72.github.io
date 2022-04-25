@@ -114,11 +114,11 @@ func (pow *ProofOfWork) Validate() bool {
 
 ## 实验结果
 
-<img src="images\blockchain\image-20220423181557002.png" alt="image-20220423181557002" style="zoom:75%;" />
+<img src="..\images\blockchain\image-20220423181557002.png" alt="image-20220423181557002" style="zoom:75%;" />
 
-<img src="images\blockchain\image-20220423181645984.png" alt="image-20220423181645984" style="zoom:75%;" />
+<img src="..\images\blockchain\image-20220423181645984.png" alt="image-20220423181645984" style="zoom:75%;" />
 
-<img src="images\blockchain\image-20220423181719938.png" alt="image-20220423181719938" style="zoom:75%;" />
+<img src="..\images\blockchain\image-20220423181719938.png" alt="image-20220423181719938" style="zoom:75%;" />
 
 ​		实验结果：每一次哈希的前TargetBits位均为0，区块产生正确。随着TargetBits的增长，计算次数也随着增加，从图中可见，每增加一点难度，计算次数大概增加一倍，符合理论预期。
 
